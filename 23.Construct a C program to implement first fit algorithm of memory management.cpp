@@ -10,7 +10,7 @@ void firstFit(int blockSize[], int m, int processSize[], int n) {
             if (blockSize[j] >= processSize[i]) {
                 allocation[i] = j;
                 blockSize[j] -= processSize[i];
-                break; // Allocate and move to the next process
+                break; 
             }
         }
     }
